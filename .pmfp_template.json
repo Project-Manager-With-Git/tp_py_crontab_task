@@ -44,7 +44,7 @@
             "default_path": "{{ project_name }}/tasks.py"
         },
         "dockerfile": {
-            "source": "cp_dockerfiles//python_singal_dockerfile",
+            "source": "cp_dockerfiles//python_pyz_allinone_dockerfile",
             "description": "定时任务打包为镜像的dockerfile",
             "default_path": "dockerfile"
         }
