@@ -44,9 +44,14 @@
             "default_path": "{{ project_name }}/tasks.py"
         },
         "dockerfile": {
-            "source": "cp_dockerfiles//python_pyz_allinone_dockerfile",
+            "source": "cp_dockerfiles@v0.0.1//python_pyz_allinone_dockerfile",
             "description": "定时任务打包为镜像的dockerfile",
             "default_path": "dockerfile"
+        },
+        "docker-compose": {
+            "source": "cp_dockercompose@v0.0.1//universal_task_standalone",
+            "description": "通用的任务程序使用的dockercompose,适用于调试",
+            "default_path": "docker-compose.yml"
         }
     }
 }
