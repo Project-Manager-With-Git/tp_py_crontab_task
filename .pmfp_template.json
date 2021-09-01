@@ -49,7 +49,7 @@
             "default_path": "dockerfile"
         },
         "docker-compose": {
-            "source": "cp_dockercompose@v0.0.1//universal_task_standalone",
+            "source": "cp_dockercompose@v0.0.2//universal_task_standalone",
             "description": "通用的任务程序使用的dockercompose,适用于调试",
             "default_path": "docker-compose.yml"
         }
